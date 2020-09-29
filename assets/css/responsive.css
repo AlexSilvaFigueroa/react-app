@@ -1,0 +1,95 @@
+/*RESPONSIVE DISING*/
+
+
+/*Media llama una media query*/
+/*El (Desde) especifica los rangos, se ejecutan estos estilos*/
+@media (max-width: 1305px){
+    .center {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1152px){
+    .center {
+        width: 95%;
+    }
+
+    #menu ul {
+        width: auto;
+    }
+}
+
+@media (max-width: 1025px){
+
+    .logo {
+        float: none;
+        width: 340px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #app-logo {
+        margin: 0px auto;
+    }
+    #menu,
+    #menu ul {
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 40px;
+    }
+
+    #content {
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar {
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
+    slider h1 {
+        padding-top: 110px;
+    }
+
+    .mid-form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 497px){
+    #header {
+        min-height: 130px;
+        overflow: hidden;
+    }
+
+    #menu,
+    #menu ul {
+        line-height: 50px;
+    }
+
+    #menu ul li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #slider{
+        height: 165px;
+    }
+    
+    #slider h1 {
+        font-size: 22px;
+        padding-top: 40px;
+    }
+
+    #slider .btn-slider {
+        margin-top: 5px;
+    }
+
+
+}

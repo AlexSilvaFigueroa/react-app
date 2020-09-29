@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/articles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>React</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <!--LOGO-->
+            <div class="logo">
+                <img src="assets/images/react.svg" class="app-logo" alt="logo" />
+                <span id="brand"><strong>React</strong> developer</span>
+            </div>
+            <!--MENU-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="form.html">Formulario</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--Limpiar flotados-->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+    <!--Sidebar-->
+    <div class="center">
+        <section id="content">
+            <h1 class="subheader">Registro</h1>
+            <form  class="full-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre" placeholder="Ingrese nombre..."/>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="Apellido" placeholder="Ingrese apellido..."/>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Biografia</label>
+                    <textarea name="bio"></textarea>
+                </div>
+                <div class="form-group radiobuttons">
+                    <input type="radio" name="genero" value="hombre"/>Hombre 
+                    <input type="radio" name="genero" value="mujer"/>Mujer 
+                    <input type="radio" name="genero" value="otro"/>Otro 
+                </div>
+                <div class="clearfix"></div>
+                <input type="submit" value="Aceptar" class="btn btn-success"/>
+            </form>
+        </section>
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Quieres intentaro tu mismo</h3>
+                <a href="#" class="btn btn-success">Publica tu propio articulo!</a>
+            </div>
+            <div id="search" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el articulo que buscas</p>
+                <form>
+                    <input type="text" name="search" />
+                    <input type="submit" name="submit" value="Buscar" class="btn" />
+                </form>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+    <footer id="footer">
+        <div class="center">
+            &copy; Portfolio Web Developer
+        </div>
+    </footer>
+</body>
+
+</html>
